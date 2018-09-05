@@ -25,10 +25,10 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <ReactTitle title="HERO app" />
-          <Route path="/" component={NavBar} />
-          <Route path="/" exact component={Hero} />
-          <Route path="/thankyou" exact component={ThankYou} />
-          <Route path="/about" exact component={AboutPage} />
+          <Route path={process.env.PUBLIC_URL + '/'} component={NavBar} />
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Hero} />
+          <Route path={process.env.PUBLIC_URL + '/thankyou'} exact component={ThankYou} />
+          <Route path={process.env.PUBLIC_URL + '/about'} exact component={AboutPage} />
         </div>
       </BrowserRouter>
     );
