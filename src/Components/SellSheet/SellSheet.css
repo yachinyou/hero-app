@@ -1,0 +1,38 @@
+.sell-section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.sell-text {
+    text-align: left;
+}
+
+.sell-text h2{
+    font-size: 1.75em;
+    font-weight: 800;
+    margin-top: 1em;
+}
+
+.sell-text h6{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sell1-image img{
+    width: 100%;
+    max-width: 40em;
+}
+
+.sell2-image img{
+    width: 100%;
+    max-width: 40em;
+}
+
+.sell3-image img{
+    width: 100%;
+    max-width: 40em;
+}
