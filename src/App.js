@@ -6,7 +6,8 @@ import NavBar from './Components/NavBar/NavBar';
 import Hero from './Components/Hero/Hero';
 import SellSheet from './Components/SellSheet/SellSheet';
 import Footer from './Components/Footer/Footer';
-import ThankYou from './Components/SignUpThankYou/SignUpThankYou';
+import DownloadThankYou from './Components/SignUpThankYou/DownloadThankYou';
+import SignUpThankYou from './Components/SignUpThankYou/SignUpThankYou';
 import AboutPage from './Components/About/About';
 
 // Google Analytics
@@ -27,7 +28,8 @@ class App extends Component {
           <ReactTitle title="HERO app" />
           <Route path="/" component={NavBar} />
           <Route path="/" exact component={Hero} />
-          <Route path="/thankyou" exact component={ThankYou} />
+          <Route path="/downloadthankyou" exact component={DownloadThankYou} />
+          <Route path="/signupthankyou" exact component={SignUpThankYou} />
           <Route path="/about" exact component={AboutPage} />
         </div>
       </BrowserRouter>
