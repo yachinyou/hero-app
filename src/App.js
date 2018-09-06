@@ -9,10 +9,10 @@ import Footer from './Components/Footer/Footer';
 import ThankYou from './Components/SignUpThankYou/SignUpThankYou';
 import AboutPage from './Components/About/About';
 
-//Update Google analytics
-// import ReactGA from 'react-ga';
-// ReactGA.initialize('UA-648673-27');
-// ReactGA.pageview(window.location.pathname + window.location.search);
+// Google Analytics
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-648673-28');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
 
