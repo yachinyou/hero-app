@@ -34,7 +34,7 @@ class NavBar extends Component {
     render() {
         return(
             <Navbar light expand="md">
-                <NavbarBrand href="/"><img className="navbar-logo" src={Logo} alt="UX Challenge logo" /></NavbarBrand>
+                <NavbarBrand href={process.env.PUBLIC_URL + '/'}><img className="navbar-logo" src={Logo} alt="UX Challenge logo" /></NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
