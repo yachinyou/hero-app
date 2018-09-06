@@ -21,9 +21,9 @@ class DownloadThankYou extends Component {
                     <div className="col-xl-3 col-lg-3 col-md-2 col-sm-12 col-12"></div>
                 </div>
                 <div className="form-container">
-                    <form action="https://bonsterxbonster.us2.list-manage.com/subscribe/post" method="POST">
+                    <form action="https://uxchallenge.us2.list-manage.com/subscribe/post" method="POST">
                         <Input type="hidden" name="u" value="7cdd3e7148bfb13d3deb11a50" />
-                        <Input type="hidden" name="id" value="75e70fa2e8" />    
+                        <Input type="hidden" name="id" value="3bc24473ea" />    
                         <Input className="email-input float-left" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="Your Email"/>
                         <Button type="submit" className="float-left">Get early access</Button>
                     </form>
